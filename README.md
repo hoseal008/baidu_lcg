@@ -3,6 +3,9 @@
 ---
 
 ```
+2018.2.8下午18:08
+发布新的免费token
+
 2018.2.8下午17:31
 修复python 2下need more than 2 values to unpack错误
 
@@ -53,7 +56,8 @@ QQ 3313266235
 ## 免费token
 
 - ~~`asdfarhaer` 500次ocr~~ 已用完
-- `qwevaerDerhw` 200次ocr
+- ~~`qwevaerDerhw` 200次ocr~~ 已用完
+- `prgaEfhrTGwe` 150次ocr
 
 ## 验证码识别效果
 
