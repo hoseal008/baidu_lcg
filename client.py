@@ -10,7 +10,7 @@ server_port = 13897
 client1 = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 client1.connect((server_name, server_port))
 
-token = "asdf****er"
+token = "******"
 
 
 def online_ocr(img_b64):

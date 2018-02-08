@@ -122,6 +122,7 @@ class PetChain():
 
                 data['captcha'] = captcha
                 data['seed'] = seed
+                self.headers['Referer'] = "https://pet-chain.baidu.com/chain/detail?channel=market&petId={}&appId=1&validCode={}".format(pet_id, pet_validCode)
                 page = requests.post("https://pet-chain.baidu.com/data/txn/create", headers=self.headers,
                                      data=json.dumps(data), timeout=2)
                 resp = page.json()
