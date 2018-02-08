@@ -4,8 +4,10 @@
 
 ```
 2018.2.8下午16:12
-更新修复[Python 3兼容性问题](https://github.com/hoseal008/baidu_lcg/issues/2)，修复“请从集市进入购买”的问题
+更新修复Python 3兼容性问题，修复“请从集市进入购买”的问题
 ```
+
+Python 3兼容性问题[请点击这里](https://github.com/hoseal008/baidu_lcg/issues/2)
 
 本项目基于[该项目](https://github.com/yanwii/pet-chain)开发，感谢原作者。
 
