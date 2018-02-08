@@ -18,6 +18,8 @@
 
 __Python 3兼容性问题[请点击这里](https://github.com/hoseal008/baidu_lcg/issues/2)__
 
+__“请从集市进入购买问题”在[这里](https://github.com/hoseal008/baidu_lcg/issues/4)讨论__
+
 本项目基于[该项目](https://github.com/yanwii/pet-chain)开发，感谢原作者。
 
 ## 使用方法
