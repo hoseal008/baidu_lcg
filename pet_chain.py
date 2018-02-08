@@ -108,7 +108,7 @@ class PetChain():
                 page = requests.post("https://pet-chain.baidu.com/data/pet/queryPetById", headers=self.headers,
                                      data=querypet_data)
 
-                captcha, seed, image = self.get_captcha()
+                captcha, seed = self.get_captcha()
                 assert captcha and seed, ValueError("验证码为空")
 
                 jump_data = {
@@ -129,7 +129,7 @@ class PetChain():
                     # cv2.imwrite("data/captcha_dataset/%s.jpg" % captcha, image)
                     print "Get one captcha sample"
                 else:
-                    cv2.imwrite("data/captcha_dataset/neg_sample/%s.jpg" % str(time.time()).replace('.', '_'), image)
+                    # cv2.imwrite("data/captcha_dataset/neg_sample/%s.jpg" % str(time.time()).replace('.', '_'), image)
                     print "Get one negative sample"
                 print json.dumps(resp, ensure_ascii=False)
         except Exception, e:
