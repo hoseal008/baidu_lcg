@@ -3,7 +3,7 @@ import ConfigParser
 import json
 import random
 import time
-# import base64
+import base64
 
 import requests
 

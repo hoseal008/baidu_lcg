@@ -28,5 +28,4 @@ if __name__ == "__main__":
         image = f.read()
 
     img_b64 = base64.b64encode(image)
-    print len(img_b64)
     print online_ocr(img_b64)
