@@ -3,6 +3,9 @@
 ---
 
 ```
+2018.2.8下午17:31
+修复python 2下need more than 2 values to unpack错误
+
 2018.2.8下午16:12
 更新修复Python 3兼容性问题，修复“请从集市进入购买”的问题
 
