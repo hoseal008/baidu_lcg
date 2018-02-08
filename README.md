@@ -2,7 +2,7 @@
 
 ---
 
-本外挂带有验证码识别功能
+本外挂带有验证码识别功能，client基于python2.7
 
 本项目基于[该项目](https://github.com/yanwii/pet-chain)开发，感谢原作者。
 
