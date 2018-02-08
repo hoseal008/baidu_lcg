@@ -2,9 +2,10 @@
 
 ---
 
-重大更新，以最新版为准
-
-本外挂带有验证码识别功能，client基于python2.7
+```
+2018.2.8下午16:12
+更新修复[Python 3兼容性问题](https://github.com/hoseal008/baidu_lcg/issues/2)，修复“请从集市进入购买”的问题
+```
 
 本项目基于[该项目](https://github.com/yanwii/pet-chain)开发，感谢原作者。
 

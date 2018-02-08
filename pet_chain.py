@@ -96,13 +96,41 @@ class PetChain():
                 "validCode": pet_validCode
             }
             if float(pet_amount) <= self.degree_conf.get(pet_degree):
-                captcha, seed = self.get_captcha()
+
+
+                querypet_data = {
+                    "appId": 1,
+                    "petId": pet_id,
+                    "requestId": int(time.time() * 1000),
+                    "tpl": ""
+                }
+
+                page = requests.post("https://pet-chain.baidu.com/data/pet/queryPetById", headers=self.headers,
+                                     data=querypet_data)
+
+                captcha, seed, image = self.get_captcha()
                 assert captcha and seed, ValueError("验证码为空")
+
+                jump_data = {
+                    "appId": 1,
+                    "requestId": int(time.time() * 1000),
+                    "tpl": ""
+                }
+
+                page = requests.post("https://pet-chain.baidu.com/data/market/shouldJump2JianDan", headers=self.headers,
+                                     data=json.dumps(jump_data), timeout=2)
+
                 data['captcha'] = captcha
                 data['seed'] = seed
                 page = requests.post("https://pet-chain.baidu.com/data/txn/create", headers=self.headers,
                                      data=json.dumps(data), timeout=2)
                 resp = page.json()
+                if resp.get(u"errorMsg") != u"验证码错误":
+                    # cv2.imwrite("data/captcha_dataset/%s.jpg" % captcha, image)
+                    print "Get one captcha sample"
+                else:
+                    cv2.imwrite("data/captcha_dataset/neg_sample/%s.jpg" % str(time.time()).replace('.', '_'), image)
+                    print "Get one negative sample"
                 print json.dumps(resp, ensure_ascii=False)
         except Exception, e:
             print e
