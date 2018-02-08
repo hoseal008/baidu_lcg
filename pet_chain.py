@@ -55,16 +55,16 @@ class PetChain():
     def get_market(self):
         try:
             data = {
-                "appId": 2,
+                "appId": 1,
                 "lastAmount": None,
                 "lastRareDegree": None,
                 "pageNo": 1,
-                "pageSize": 20,
+                "pageSize": 10,
                 "petIds": [],
                 # "querySortType": "AMOUNT_DESC",
                 "querySortType": "AMOUNT_ASC",
                 "requestId": 1517968317687,
-                "tpl": "wallet",
+                "tpl": "",
             }
             page = requests.post("https://pet-chain.baidu.com/data/market/queryPetsOnSale", headers=self.headers,
                                  data=json.dumps(data))
