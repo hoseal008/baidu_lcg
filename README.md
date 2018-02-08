@@ -39,6 +39,8 @@ QQ 3313266235
 
 ## 免费token
 
+右上角`Star`本项目，可QQ联系凭GitHub账号领取200次免费token
+
 - `asdfarhaer` 500次ocr
 
 ## 验证码识别效果
