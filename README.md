@@ -38,7 +38,7 @@ webdriver   firefox/chrome
 
 本程序的验证码识别需要请求服务器API，我会不定期在这里发布免费token。
 
-使用时，将`client.py`里的token字符串替换为下面列出的可用token即可。
+使用时，将`client.py`里的token字符串替换为下面列出的可用token即可，然后 __运行`pet_chain.py`__。
 
 如果需要查看验证码识别效果，可以将`pet_chain.py`里面将图片写入文件的代码注释去掉，验证码就会保存到`ocr_result`目录下（写入文件会拖慢速度，因此默认不保存验证码图片）。
 
