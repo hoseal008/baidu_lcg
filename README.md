@@ -16,14 +16,18 @@
 
 如果需要查看验证码识别效果，可以将`pet_chain.py`里面将图片写入文件的代码注释去掉，验证码就会保存到`ocr_result`目录下（写入文件会拖慢速度，因此默认不保存验证码图片）。
 
-## 验证码识别效果
-
-![](image/ocr_result.png)
-
-![](image/result.png)
-
 ## 交流
 
 技术及token交流可加QQ
 
 QQ 3313266235
+
+## 免费token
+
+`asdfarhaer` 500次ocr
+
+## 验证码识别效果
+
+![](image/ocr_result.png)
+
+![](image/result.png)
