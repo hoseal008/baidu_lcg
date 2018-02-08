@@ -67,7 +67,7 @@ class PetChain():
                 "tpl": "",
             }
 
-            self.headers['Referer'] = "https://pet-chain.baidu.com/chain/dogMarket?t=1518061902774&appId=1"
+            self.headers['Referer'] = "https://pet-chain.baidu.com/chain/dogMarket?t={}&appId=1".format(int(time.time() * 1000))
 
             page = requests.post("https://pet-chain.baidu.com/data/market/queryPetsOnSale", headers=self.headers,
                                  data=json.dumps(data))
