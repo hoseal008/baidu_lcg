@@ -8,6 +8,8 @@
 
 ## 使用方法
 
+__使用前请先更新`client.py`里面的token__
+
 使用时，请先登陆百度账号，用chrome等浏览器打开莱茨狗市场页面，在`F12`开发者模式下点击按价格排序，右键`queryPetsOnSale`复制`request headers`，粘贴到`data/headers.txt`里。
 
 本程序的验证码识别需要请求服务器API，本代码中已经内置有一枚token（在`client.py`里），我会不定时为该token充值500次验证码ocr服务次数，或者不定期在这里发布免费token。
@@ -24,7 +26,7 @@ QQ 3313266235
 
 ## 免费token
 
-`asdfarhaer` 500次ocr
+- `asdfarhaer` 500次ocr
 
 ## 验证码识别效果
 
