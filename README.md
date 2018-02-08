@@ -21,6 +21,8 @@ __Python 3兼容性问题[请点击这里](https://github.com/hoseal008/baidu_lc
 
 __使用前请先更新`client.py`里面的token__
 
+__主文件是`pet_chain.py`，请不要运行`client.py`!!!__
+
 使用时，请先登陆百度账号，用chrome等浏览器打开莱茨狗市场页面，在`F12`开发者模式下点击按价格排序，右键`queryPetsOnSale`复制`request headers`，粘贴到`data/headers.txt`里。
 
 在`config.ini`里修改购买策略，设置每一种狗狗的最大购买价格
