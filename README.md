@@ -57,7 +57,7 @@ QQ 3313266235
 
 - ~~`asdfarhaer` 500次ocr~~ 已用完
 - ~~`qwevaerDerhw` 200次ocr~~ 已用完
-- `prgaEfhrTGwe` 150次ocr
+- ~~`prgaEfhrTGwe` 150次ocr~~ 已用完
 
 ## 验证码识别效果
 
