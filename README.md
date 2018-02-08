@@ -46,7 +46,8 @@ QQ 3313266235
 
 第一枚(用完再放新的)
 
-- `asdfarhaer` 500次ocr
+- ~~`asdfarhaer` 500次ocr~~ 已用完
+- `qwevaerDerhw` 200次ocr
 
 _右上角`Star`本项目，可QQ联系凭GitHub账号领取200次免费token_
 
