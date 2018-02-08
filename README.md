@@ -20,6 +20,8 @@
 
 ![](image/ocr_result.png)
 
+![](image/result.png)
+
 ## 交流
 
 技术及token交流可加QQ
