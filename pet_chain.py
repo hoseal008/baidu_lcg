@@ -66,6 +66,9 @@ class PetChain():
                 "requestId": 1517968317687,
                 "tpl": "",
             }
+
+            self.headers['Referer'] = "https://pet-chain.baidu.com/chain/dogMarket?t=1518061902774&appId=1"
+
             page = requests.post("https://pet-chain.baidu.com/data/market/queryPetsOnSale", headers=self.headers,
                                  data=json.dumps(data))
             if page.json().get(u"errorMsg") == u"success":
@@ -104,6 +107,10 @@ class PetChain():
                     "requestId": int(time.time() * 1000),
                     "tpl": ""
                 }
+
+                self.headers[
+                    'Referer'] = "https://pet-chain.baidu.com/chain/detail?channel=market&petId={}&appId=1&validCode={}".format(
+                    pet_id, pet_validCode)
 
                 page = requests.post("https://pet-chain.baidu.com/data/pet/queryPetById", headers=self.headers,
                                      data=querypet_data)
