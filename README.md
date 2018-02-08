@@ -18,7 +18,7 @@
 
 ## 验证码识别效果
 
-![](https://github.com/hoseal008/baidu_lcg/tree/master/image/ocr_result.png)
+![](image/ocr_result.png)
 
 ## 交流
 
