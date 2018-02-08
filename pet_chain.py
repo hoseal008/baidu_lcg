@@ -61,8 +61,8 @@ class PetChain():
                 "pageNo": 1,
                 "pageSize": 20,
                 "petIds": [],
-                "querySortType": "AMOUNT_DESC",
-                # "querySortType": "AMOUNT_ASC",
+                # "querySortType": "AMOUNT_DESC",
+                "querySortType": "AMOUNT_ASC",
                 "requestId": 1517968317687,
                 "tpl": "wallet",
             }
