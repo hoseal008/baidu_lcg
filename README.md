@@ -6,11 +6,11 @@
 2018.2.8下午17:31
 修复python 2下need more than 2 values to unpack错误
 
-2018.2.8下午16:12
-更新修复Python 3兼容性问题，修复“请从集市进入购买”的问题
-
 2018.2.8下午17:17
 发布新的免费token
+
+2018.2.8下午16:12
+更新修复Python 3兼容性问题，修复“请从集市进入购买”的问题
 ```
 
 __Python 3兼容性问题[请点击这里](https://github.com/hoseal008/baidu_lcg/issues/2)__
