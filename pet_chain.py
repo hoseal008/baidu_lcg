@@ -76,7 +76,7 @@ class PetChain():
                 # print ".",
                 pets = page.json().get(u"data").get("petsOnSale")
                 for pet in pets:
-                    if pet.get(u"validCode") == '':
+                    if pet.get(u"validCode") is None:
                         continue
                     self.purchase(pet)
         except Exception, e:
