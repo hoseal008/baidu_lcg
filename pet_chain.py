@@ -63,7 +63,7 @@ class PetChain():
                 "petIds": [],
                 # "querySortType": "AMOUNT_DESC",
                 "querySortType": "AMOUNT_ASC",
-                "requestId": 1517968317687,
+                "requestId": int(time.time() * 1000),
                 "tpl": "",
             }
 
@@ -76,6 +76,8 @@ class PetChain():
                 # print ".",
                 pets = page.json().get(u"data").get("petsOnSale")
                 for pet in pets:
+                    if pet.get(u"validCode") == '':
+                        continue
                     self.purchase(pet)
         except Exception, e:
             # print 'x',
