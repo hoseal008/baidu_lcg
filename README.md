@@ -54,7 +54,6 @@ webdriver   firefox/chrome
 
 技术及token交流可加QQ，token可购买
 
-QQ 3313266235
 
 ## 免费token
 
