@@ -52,7 +52,7 @@ webdriver   firefox/chrome
 
 ## 交流
 
-技术及token交流可加QQ，token可购买
+~~技术及token交流可加QQ，token可购买~~
 
 
 ## 免费token
